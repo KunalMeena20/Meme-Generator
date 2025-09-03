@@ -1,0 +1,54 @@
+.meme-heading{
+    text-align: center;
+}
+
+.meme-form{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+}
+
+.meme-btn {
+    height: 3rem;
+    width: 12rem;
+    cursor: pointer;
+}
+
+.meme-heading-2{
+    text-align: center;
+}
+
+.temp-outer-cnt {
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.temp-inner-cnt{
+    height: 18rem;
+    width: 30rem;
+    align-self: center;
+}
+
+.meme-btn-2 {
+    height: 3rem;
+    width: 10rem;
+}
+
+.meme-form-2{
+    align-self: center;
+}
+
+.edit-heading{
+    text-align: center;
+}
+
+.edit-img {
+    height: 18rem;
+    width: 30rem;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+}

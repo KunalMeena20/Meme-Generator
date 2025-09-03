@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generate & Edit</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1 class="meme-heading">Make Your Own Memes</h1>
+    <form class="meme-form">
+        <button type="button" class="meme-btn">Generate your Template</button>
+    </form>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>       
+    <h2 class="meme-heading-2"></h2>
+    <div class="temp-outer-cnt">
+        <img class="temp-inner-cnt">
+        <form action="http://localhost:8080/meme/edit" method="get" class="meme-form-2">
+            <button type="submit" class="meme-btn-2">Edit Template</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
