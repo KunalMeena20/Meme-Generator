@@ -13,10 +13,10 @@ app.set("views", path.join(__dirname, "views"));
 
 
 
-app.get("https://meme-generator-5nbt.onrender.com/meme", (req, res) => {
+app.get("/meme", (req, res) => {
     res.render("index.ejs");
 });
 
-app.get("https://meme-generator-5nbt.onrender.com/meme/edit", (req, res) => {
+app.get("/meme/edit", (req, res) => {
     res.render("edit.ejs");
 })
